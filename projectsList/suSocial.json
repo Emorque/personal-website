@@ -1,0 +1,12 @@
+{
+    "name": "SU Social",
+    "description": "Java Based Android Social Media for Syracuse University Students",
+    "tech": [
+        "Java",
+        "GCP",
+        "NoSQL",
+        "Android Studio"
+    ],
+    "github": "https://github.com/Emorque/SU_Social",
+    "picture": "/images/ER.jpg"
+}

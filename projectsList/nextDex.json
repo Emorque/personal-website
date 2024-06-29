@@ -1,0 +1,11 @@
+{
+    "name": "NextDex",
+    "description": "A PokeDex Application made with NextJS. Pokemon information called from PokeAPI",
+    "tech": [
+        "Next.js",
+        "RESTful API",
+        "Tailwind"
+    ],
+    "github": "https://github.com/Emorque/NextDex",
+    "picture": "/images/bg.png"
+}
