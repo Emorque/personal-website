@@ -1,7 +1,7 @@
 {
     "name": "NextDex",
     "description": "A PokeDex Application made with NextJS. Pokemon information called from PokeAPI",
-    "tech": [
+    "technologies": [
         "Next.js",
         "RESTful API",
         "Tailwind"
