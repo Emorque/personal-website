@@ -43,6 +43,7 @@ export function ProjectCard( {name} : projectData) {
         <Card className="max-w-2xl">
             <CardHeader>
                 <CardTitle>{projectInfo.name}</CardTitle>
+                <CardTitle>{projectInfo.date}</CardTitle>
                 <CardDescription>{projectInfo.description}</CardDescription>
             </CardHeader>
             <CardContent>
