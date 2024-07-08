@@ -1,12 +1,12 @@
 {
     "name": "NextDex",
-    "description": "A PokeDex Application made with NextJS. Pokemon information called from PokeAPI",
+    "description": "A Pokédex Application made with NextJS. Pokemon information called from PokeAPI",
     "technologies": [
         "Next.js",
         "RESTful API",
         "Tailwind"
     ],
     "github": "https://github.com/Emorque/NextDex",
-    "picture": "/images/bg.png",
+    "picture": "/images/nextdex.png",
     "date": "June 2024 - Present"
 }

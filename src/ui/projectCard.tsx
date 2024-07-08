@@ -40,14 +40,14 @@ export function ProjectCard( {name} : projectData) {
         //     })}
         //     <h2>{projectInfo.github}</h2>
         // </div>
-        <Card className="max-w-2xl">
+        <Card key={projectInfo.name}  className="max-w-2xl bg-gradient-to-r from-purple-950 via-purple-600 to-purple-950">
             <CardHeader>
                 <CardTitle>{projectInfo.name}</CardTitle>
                 <CardTitle>{projectInfo.date}</CardTitle>
                 <CardDescription>{projectInfo.description}</CardDescription>
             </CardHeader>
             <CardContent>
-                <img src={projectInfo.picture} width="100px" height="100px"></img>
+                <a href={projectInfo.github}><img src={projectInfo.picture}></img></a>
                 {projectInfo.technologies.map((tech : string) => {
                     return(
                         <Badge key={tech}>
@@ -56,9 +56,9 @@ export function ProjectCard( {name} : projectData) {
                     )
                 })}
             </CardContent>
-            <CardFooter>
+            {/* <CardFooter>
                 <a href={projectInfo.github}>GitHub</a>
-            </CardFooter>
+            </CardFooter> */}
         </Card>
     )
 }
