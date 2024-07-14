@@ -3,40 +3,41 @@ import Image from "next/image";
 export default function hobbiesPage() {
     return (
         <div>
-            <div className="grid grid-cols-4 gap-2">
+            <div className="grid gap-2 grid-cols-1 md:grid-cols-4 lg:grid-cols-4">
                 <div>
-                    <Image alt="First Drawing" width={2012} height={2740} className="" src="/drawings/1.jpg"></Image>
+                    <Image alt="First Drawing" width={2012} height={2740} className="border-Zcolor4 border-4 drop-shadow-2xl" src="/drawings/1.webp"></Image>
                 </div>
                 <div>
-                    <Image alt="Second Drawing" width={2012} height={2740} className="" src="/drawings/2.jpg"></Image>
+                    <Image alt="Second Drawing" width={2012} height={2740} className="border-Zcolor4 border-4 drop-shadow-2xl" src="/drawings/2.webp"></Image>
                 </div>
                 <div>
-                    <Image alt="Third Drawing" width={2012} height={2740}  className="" src="/drawings/3.jpg"></Image>
+                    <Image alt="Third Drawing" width={2012} height={2740}  className="border-Zcolor4 border-4 drop-shadow-2xl" src="/drawings/3.webp"></Image>
                 </div>
                 <div>
-                    <Image alt="Fourth Drawing" width={2012} height={2740} className="" src="/drawings/4.jpg"></Image>
+                    <Image alt="Fourth Drawing" width={2012} height={2740} className="border-Zcolor4 border-4 drop-shadow-2xl" src="/drawings/4.webp"></Image>
                 </div>
                 <div>
-                    <Image alt="Fifth Drawing" width={2012} height={2740} className="" src="/drawings/5.jpg"></Image>
+                    <Image alt="Fifth Drawing" width={2012} height={2740} className="border-Zcolor4 border-4 drop-shadow-2xl" src="/drawings/5.webp"></Image>
                 </div>
                 <div>
-                    <Image alt="Sixth Drawing" width={2012} height={2740} className="" src="/drawings/6.jpg"></Image>
+                    <Image alt="Sixth Drawing" width={2012} height={2740} className="border-Zcolor4 border-4 drop-shadow-2xl" src="/drawings/6.webp"></Image>
                 </div>
                 <div>
-                    <Image alt="Seventh Drawing" width={2012} height={2740} className="" src="/drawings/7.jpg"></Image>
+                    <Image alt="Seventh Drawing" width={2012} height={2740} className="border-Zcolor4 border-4 drop-shadow-2xl" src="/drawings/7.webp"></Image>
                 </div>
                 <div>
-                    <Image alt="Eighth Drawing" width={2012} height={2740} className="" src="/drawings/8.jpg"></Image>
+                    <Image alt="Eighth Drawing" width={2012} height={2740} className="border-Zcolor4 border-4 drop-shadow-2xl" src="/drawings/8.webp"></Image>
                 </div>
                 <div className="col-span-2">
-                    <Image priority alt="Ninth Drawing" width={2012} height={2740} src="/drawings/9.jpg"></Image>
+                    <Image priority alt="Ninth Drawing" width={2012} height={2740} className="border-Zcolor4 border-4 drop-shadow-2xl" src="/drawings/9.webp"></Image>
                 </div>
             </div>
             <br/>
-            <h1>What I am Playing Now:</h1>
+            <h1>The Video Game I am Playing Now:</h1>
             <div className={`grid grid-cols-4 gap-2`}>
                 <div>
                     <Image 
+                    className="border-Zcolor4 border-4 drop-shadow-2xl"
                     width={2012} height={2740}
                     alt="Artwork for Elden Ring" 
                     src="/videoGames/current/EldenRing.webp">
@@ -44,10 +45,11 @@ export default function hobbiesPage() {
                 </div>
             </div>
             <br/>
-            <h1>Some of my Favorites:</h1>
+            <h1>My All-Time Favorites:</h1>
             <div className={`grid grid-cols-4 gap-2`}>
                 <div>
-                    <Image 
+                    <Image
+                    className="border-Zcolor4 border-4 drop-shadow-2xl"
                     width={2012} height={2740}
                     alt="Artwork for Octopath Traveler 2" 
                     src="/videoGames/favorites/OT2.webp">
@@ -55,6 +57,7 @@ export default function hobbiesPage() {
                 </div>
                 <div>
                     <Image 
+                    className="border-Zcolor4 border-4 drop-shadow-2xl"
                     width={2012} height={2740}
                     alt="Artwork for Jak and Daxter" 
                     src="/videoGames/favorites/JandD.webp">
@@ -62,12 +65,14 @@ export default function hobbiesPage() {
                 </div>
                 <div>
                     <Image 
+                    className="border-Zcolor4 border-4 drop-shadow-2xl"
                     width={2012} height={2740}
                     alt="Artwork for Celeste" 
                     src="/videoGames/favorites/celeste.webp">
                     </Image>
                 </div>
             </div>
+            <br/>
             <br/>
             <br/>
         </div>

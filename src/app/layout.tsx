@@ -19,10 +19,10 @@ export default function RootLayout({
 }>) {
   const header = (
     <header>
-      <div className="flex flex-row text-left bg-Zcolor2 p-8 my-6 rounded-md text-white">
-        <a className="mr-10" href={`/`}>Eric Rodriguez</a>
-        <a className="mr-10" href={`/projects`}>Projects</a>
-        <a href={`/hobbies`}>Hobbies</a>
+      <div className="flex flex-row text-left bg-Zcolor2 p-8 my-6 rounded-md text-white text-base md:text-2xl lg:text-2xl drop-shadow-xl">
+        <a className="mr-5" href={`/`}>Eric Rodriguez</a>
+        <a className="mr-5" href={`/projects`}>Projects</a>
+        <a className="mr-5" href={`/hobbies`}>Hobbies</a>
       </div>
     </header>
   )

@@ -41,11 +41,11 @@ export function ProjectCard( {name} : projectData) {
         //     })}
         //     <h2>{projectInfo.github}</h2>
         // </div>
-        <Card key={projectInfo.name}  className="max-w-2xl bg-Zcolor3 border-Zcolor4 border-4"> {/*bg-gradient-to-r from-purple-950 via-purple-600 to-purple-950*/}
+        <Card key={projectInfo.name}  className="max-w-2xl bg-Zcolor3 border-Zcolor4 border-4 drop-shadow-2xl"> {/*bg-gradient-to-r from-purple-950 via-purple-600 to-purple-950*/}
             <CardHeader>
-                <CardTitle>{projectInfo.name}</CardTitle>
-                <CardTitle>{projectInfo.date}</CardTitle>
-                <CardDescription>{projectInfo.description}</CardDescription>
+                <CardTitle >{projectInfo.name}</CardTitle>
+                <CardTitle className="text-white">{projectInfo.date}</CardTitle>
+                <CardDescription className="text-white">{projectInfo.description}</CardDescription>
             </CardHeader>
             <CardContent>
                 <a href={projectInfo.github}>

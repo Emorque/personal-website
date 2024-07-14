@@ -19,10 +19,10 @@ const config = {
     },
     extend: {
       colors: {
-        Zcolor: "#028391",
-        Zcolor2: "#131842",
-        Zcolor3: "#F6DCAC",
-        Zcolor4: "#FEAE6F",
+        Zcolor: "#FF204E",
+        Zcolor2: "#A0153E",
+        Zcolor3: "#5D0E41",
+        Zcolor4: "#00224D",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
