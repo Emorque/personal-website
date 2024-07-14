@@ -23,10 +23,12 @@ export default function Home() {
         <div className="absolute z-10 inset-y-0 left-0 hidden lg:block md:block">
           <img 
             src="/images/borderImg.svg" 
+            alt="Border Image for Portrait"
             className="h-96 w-96 z-20">
           </img>
           <img 
-            src="/images/portrait_test.jpg" 
+            src="/images/portrait_test.jpg"
+            alt="My Portrait" 
             className="absolute h-96 w-96 left-14 top-14">
           </img>
         </div>
@@ -34,7 +36,7 @@ export default function Home() {
           <div className="pl-10 pr-10 pt-10 absolute right-0 lg:w-2/4 md:w-2/4">
           <h1 className="text-3xl">Software Engineer</h1>
           <br/>
-          <h2> I recently graduated from Syracuse University with a Bachelor's in Computer Science. It was a great time, and now I am back in the Big Apple: New York City.</h2>
+          <h2> I recently graduated from Syracuse University with a Bachelor&#39;s in Computer Science. It was a great time, and now I am back in the Big Apple: New York City.</h2>
           <br/>
           <h2>Now, I am focused on growing as a Software Engineer through my and learning all that I can, and want to be a part of this community</h2>
           <br/>
