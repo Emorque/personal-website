@@ -48,7 +48,14 @@ export function ProjectCard( {name} : projectData) {
                 <CardDescription>{projectInfo.description}</CardDescription>
             </CardHeader>
             <CardContent>
-                <a href={projectInfo.github}><Image alt={`Image of ${projectInfo.name}`} src={projectInfo.picture}></Image></a>
+                <a href={projectInfo.github}>
+                    <Image 
+                        alt={`Image of ${projectInfo.name}`} 
+                        height={100}
+                        width={100}
+                        src={projectInfo.picture}>
+                    </Image>
+                </a>
                 {projectInfo.technologies.map((tech : string) => {
                     return(
                         <Badge key={tech}>

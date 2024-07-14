@@ -26,11 +26,15 @@ export default function Home() {
           <Image 
             src="/images/borderImg.svg" 
             alt="Border Image for Portrait"
+            height={384}
+            width={384}
             className="h-96 w-96 z-20">
           </Image>
           <Image 
             src="/images/portrait_test.jpg"
             alt="My Portrait" 
+            height={384}
+            width={384}
             className="absolute h-96 w-96 left-14 top-14">
           </Image>
         </div>
@@ -44,7 +48,7 @@ export default function Home() {
           <br/>
           <h2>Outside of programming, I enjoy creating art, coming up with video game ideas, playing video games, and going rock climbing.</h2>
           <br/>
-          <h2>If you would like to get in touch, feel free to shoot me an email or see my socials. I'd love to get in touch.</h2>
+          <h2>If you would like to get in touch, feel free to shoot me an email or see my socials. I&#39;d love to get in touch.</h2>
           <br/>
           </div>
         </div>
