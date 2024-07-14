@@ -29,27 +29,47 @@ export default function hobbiesPage() {
                     <Image alt="Eighth Drawing" width={2012} height={2740} className="" src="/drawings/8.jpg"></Image>
                 </div>
                 <div className="col-span-2">
-                    <Image alt="Ninth Drawing" width={2012} height={2740} src="/drawings/9.jpg"></Image>
+                    <Image priority alt="Ninth Drawing" width={2012} height={2740} src="/drawings/9.jpg"></Image>
                 </div>
             </div>
-            <div className={`grid grid-cols-4 gap-2 transition-opacity ease-in duration-1000`}>
+            <br/>
+            <h1>What I am Playing Now:</h1>
+            <div className={`grid grid-cols-4 gap-2`}>
                 <div>
                     <Image 
-                    className=""
                     width={2012} height={2740}
                     alt="Artwork for Elden Ring" 
-                    src="/videoGames/current/eldenringjpg.jpg">
+                    src="/videoGames/current/EldenRing.webp">
+                    </Image>
+                </div>
+            </div>
+            <br/>
+            <h1>Some of my Favorites:</h1>
+            <div className={`grid grid-cols-4 gap-2`}>
+                <div>
+                    <Image 
+                    width={2012} height={2740}
+                    alt="Artwork for Octopath Traveler 2" 
+                    src="/videoGames/favorites/OT2.webp">
                     </Image>
                 </div>
                 <div>
                     <Image 
-                    className="" 
                     width={2012} height={2740}
-                    alt="Artwork for Ratchet and Clank: A Rift Apart"
-                    src="/videoGames/current/RC.png">
+                    alt="Artwork for Jak and Daxter" 
+                    src="/videoGames/favorites/JandD.webp">
+                    </Image>
+                </div>
+                <div>
+                    <Image 
+                    width={2012} height={2740}
+                    alt="Artwork for Celeste" 
+                    src="/videoGames/favorites/celeste.webp">
                     </Image>
                 </div>
             </div>
+            <br/>
+            <br/>
         </div>
     );
   }

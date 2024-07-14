@@ -35,10 +35,11 @@ export default function Home() {
             alt="My Portrait" 
             height={384}
             width={384}
+            priority
             className="absolute h-96 w-96 left-14 top-14">
           </Image>
         </div>
-        <div className="z-20 relative lg:text-right text-center text-base">
+        <div className="z-20 relative lg:text-right md:text-right text-center text-base">
           <div className="pl-10 pr-10 pt-10 absolute right-0 lg:w-2/4 md:w-2/4">
           <h1 className="text-3xl">Software Engineer</h1>
           <br/>
@@ -50,6 +51,9 @@ export default function Home() {
           <br/>
           <h2>If you would like to get in touch, feel free to shoot me an email or see my socials. I&#39;d love to get in touch.</h2>
           <br/>
+          <br/>
+          <br/>
+        
           </div>
         </div>
       </div>
