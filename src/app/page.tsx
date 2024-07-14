@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Home() {
   return (
     // <div className="min-h-svh relative z-0 flex border-4 border-color">
@@ -21,16 +23,16 @@ export default function Home() {
     <div className="relative">
       <div className="relative h-4/4 w-4/4"> {/*the 4/4 seems to just fit the content needed?*/}
         <div className="absolute z-10 inset-y-0 left-0 hidden lg:block md:block">
-          <img 
+          <Image 
             src="/images/borderImg.svg" 
             alt="Border Image for Portrait"
             className="h-96 w-96 z-20">
-          </img>
-          <img 
+          </Image>
+          <Image 
             src="/images/portrait_test.jpg"
             alt="My Portrait" 
             className="absolute h-96 w-96 left-14 top-14">
-          </img>
+          </Image>
         </div>
         <div className="z-20 relative lg:text-right text-center text-base">
           <div className="pl-10 pr-10 pt-10 absolute right-0 lg:w-2/4 md:w-2/4">

@@ -1,4 +1,5 @@
 import fs from "fs";
+import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import {
     Card,
@@ -47,7 +48,7 @@ export function ProjectCard( {name} : projectData) {
                 <CardDescription>{projectInfo.description}</CardDescription>
             </CardHeader>
             <CardContent>
-                <a href={projectInfo.github}><img src={projectInfo.picture}></img></a>
+                <a href={projectInfo.github}><Image alt={`Image of ${projectInfo.name}`} src={projectInfo.picture}></Image></a>
                 {projectInfo.technologies.map((tech : string) => {
                     return(
                         <Badge key={tech}>
