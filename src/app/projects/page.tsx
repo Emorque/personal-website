@@ -29,6 +29,7 @@ export default function projectPage() {
                 </>
             )
         })}
+        <br/> {/*Added to give some space at the bottom*/}
     </div>
   );
 }

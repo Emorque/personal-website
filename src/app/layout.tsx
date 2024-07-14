@@ -28,7 +28,7 @@ export default function RootLayout({
   )
 
   const footer = (
-    <footer className="fixed bottom-0 left-0 right-0 text-white flex justify-between items-center p-4 text-xl">
+    <footer className="fixed bottom-0 left-0 right-0 text-white flex justify-between items-center p-4 text-xl z-40">
       <div className="flex flex-col hover:animate-pulse">
         <h2>Eric</h2>
         <h2>Rodriguez</h2>
