@@ -43,7 +43,7 @@ export function ProjectCard( {name} : projectData) {
         // </div>
         <Card key={projectInfo.name}  className="max-w-2xl bg-Zcolor3 border-Zcolor4 border-4 drop-shadow-2xl"> {/*bg-gradient-to-r from-purple-950 via-purple-600 to-purple-950*/}
             <CardHeader>
-                <CardTitle className="text-black">{projectInfo.name}</CardTitle>
+                <CardTitle className="text-Zcolor">{projectInfo.name}</CardTitle>
                 <CardTitle className="text-white">{projectInfo.date}</CardTitle>
                 <CardDescription className="text-white">{projectInfo.description}</CardDescription>
             </CardHeader>

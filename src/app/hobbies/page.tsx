@@ -28,7 +28,7 @@ export default function hobbiesPage() {
                 <div>
                     <Image alt="Eighth Drawing" width={2012} height={2740} className="border-Zcolor4 border-4 drop-shadow-xl" src="/drawings/8.webp"></Image>
                 </div>
-                <div className="col-span-2">
+                <div className="col-span-1 md:col-span-2 lg:col-span-2">
                     <Image priority alt="Ninth Drawing" width={2012} height={2740} className="border-Zcolor4 border-4 drop-shadow-xl" src="/drawings/9.webp"></Image>
                 </div>
             </div>
