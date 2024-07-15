@@ -51,7 +51,7 @@ export default function Home() {
             <br/>
             <h2>If you would like to get in touch to talk about hobbies or tech, feel free to shoot me an email or connect with me. I&#39;d love to get in touch.</h2>
             <br/>
-            <a href='https://drive.google.com/file/d/17whkCYKTf-G3gtpmxQ92k4LHmXWkmxXA/view?usp=drive_link'>
+            <a href='https://drive.google.com/file/d/1J7akroLQoKy7Rqr73yBzjcEzHysT0hZc/view?usp=sharing'>
               <button className='bg-Zcolor4 rounded-md text-white text-base drop-shadow-xl p-3'>
                 Check out my Resume
               </button>
