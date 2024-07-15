@@ -36,7 +36,7 @@ export default function RootLayout({
       <div id="footer_links" className="flex flex-row space-x-4"> {/*Look into potential using "hidden" on this element when the width gets really small */}
         <a id="linkedIn" href="https://www.linkedin.com/in/emorque/" className="hover:animate-pulse">LinkedIn</a>
         <a id="GitHub" href="https://github.com/Emorque" className="hover:animate-pulse">GitHub</a>
-        <a id="Email" className="hover:animate-pulse">Shoot me an Email</a>
+        <a id="Email" href="mailto:ericrodriguez.ecr@gmail.com" className="hover:animate-pulse">Shoot me an Email</a>
       </div>
     </footer>
   );
